@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.mp3
+tts_*.mp3
+vosk-model*/
+*.egg-info/
+.env
+.vscode/
