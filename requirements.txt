@@ -1,0 +1,8 @@
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+pyserial>=3.5
+sounddevice>=0.4.6
+edge-tts>=6.1.9
+playsound==1.2.2
+vosk>=0.3.45
+requests>=2.31.0
