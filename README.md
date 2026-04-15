@@ -4,14 +4,14 @@
 
 ---
 
-## 📸 Demo
+## Demo
 
 
 
 ---<img width="523" height="474" alt="image" src="https://github.com/user-attachments/assets/1ec81d7f-2fd2-4446-835e-722260fa3306" />
 
 
-## 🧠 System Architecture
+## System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -42,7 +42,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Implementation |
 |---|---|
@@ -58,7 +58,7 @@
 
 ---
 
-## 🔌 Hardware
+## Hardware
 
 | Component | Specification |
 |---|---|
@@ -80,7 +80,7 @@ PCA9685 CH6   → Mouth servo
 
 ---
 
-## 🔧 Serial Communication Protocol
+## Serial Communication Protocol
 
 Python sends commands over UART (9600 baud) to Arduino:
 
@@ -95,7 +95,7 @@ Python sends commands over UART (9600 baud) to Arduino:
 
 ---
 
-## 📦 Software Setup
+## Software Setup
 
 ### Requirements
 
@@ -126,7 +126,7 @@ Say **"wake up"** to activate PIXEL.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 PIXEL-Animatronic/
@@ -141,7 +141,7 @@ PIXEL-Animatronic/
 
 ---
 
-## 🧩 Key Technical Decisions
+## Key Technical Decisions
 
 **Why exponential smoothing on servos?**
 Raw pixel-to-servo mapping causes jitter from MediaPipe's per-frame landmark variance. EMA with α=0.25 (horizontal) and α=0.15 (vertical) trades response speed for stability. Vertical uses lower α because eye tilt looks more unnatural when jittery.
@@ -154,7 +154,7 @@ Privacy + zero latency variance. The robot runs fully air-gapped after setup.
 
 ---
 
-## 👤 Author
+## Author
 
 **Hanadi Thaisir Jaradath**
 B.Tech — Robotics, AI & ML | Srinivas University, Mangalore
@@ -162,6 +162,6 @@ B.Tech — Robotics, AI & ML | Srinivas University, Mangalore
 
 ---
 
-## 📄 License
+## License
 
 MIT License — free to use, modify, and build upon.
